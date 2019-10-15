@@ -11,3 +11,7 @@ h1 {
       padding: 100px 25px;
       text-align: center;     
   }
+
+a:visited{
+    color: #e50000;
+}
