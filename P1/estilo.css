@@ -1,12 +1,12 @@
-body {
+body{
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
-    background-color: #000001;
+    background-color: #000000;
     color: #dddddd;      
 }
 h1{
-    background-color:#e50000;
-    color: #000001;
+    background-color:#ffffff;
+    color: #000000;
     text-transform: uppercase;
     padding: 100px 25px;
     text-align: center;     
