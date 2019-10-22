@@ -2,18 +2,102 @@ body{
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
     background-color: #000000;
-    color: #dddddd;      
+    color: #FFFFFF;
 }
+
+/* ENCABEZADOS */
+h1,h2,h3,h4,h5,h6{
+    background-color:#6B0B00;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0px;
+    
+    text-align: center;
+    margin: 10px 0px;
+
+    font-family: sans-serif;
+    font: Vesta, sans-serif;
+    font-size: 2em;
+    letter-spacing: 2em;
+}
+
+h1,h3,h5{
+    font-stretch: expanded;
+}
+
+h2,h4,h6{
+    font-style: italic;
+}
+
+h1,h6{
+    font-weight: bold
+}
+
 h1{
-    background-color:#ffffff;
+    border-radius: 2em;
+}
+
+
+
+/* PARRAFOS */
+p, li, tr{
+    font-family: Times, serif;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+table{
+    background-color: #6B0B00;
+    color: #FFFFFF;
+}
+
+tr{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+th,td{
+    border: 3px solid;
+    border-color: #C2C2C2;
+}
+
+th{
+    background-color: #FF1900;
     color: #000000;
     text-transform: uppercase;
-    padding: 100px 25px;
-    text-align: center;     
+    padding: 0px 30px;
+    font-weight: 1.3em;
 }
+
+li{
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+}
+
+p::first-letter{
+    font-size: 1.5em;
+}
+
+
+
+/* LISTAS */
+
+/* TABLAS */
+
+a:visited{
+    color: #FF1900;
+    text-decoration: underline dotted;
+}
+
 a{
     color: #ffffff;
+    text-decoration: underline dotted;
 }
+
 body{
     display: flex;
 	flex-flow: column nowrap;
