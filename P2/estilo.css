@@ -25,6 +25,7 @@ h1,h3,h5{
 
 h2,h4,h6{
     font-style: italic;
+    border-radius: 2em;
 }
 
 h1,h6{
@@ -33,7 +34,7 @@ h1,h6{
 
 h1{
     letter-spacing: 2em;
-    font-size: 2em;
+    font-size: 5em;
     padding: 100px 0px;
     background-color: #FFFFFF;
     color: #000000;
