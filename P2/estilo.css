@@ -1,6 +1,6 @@
 body{
     font: 400 15px Tahoma, sans-serif;
-    line-height: 1.2;
+    line-height: 1.2em;
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{
 
     font-family: sans-serif;
     font: Vesta, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 2em;
 }
 
@@ -125,7 +125,7 @@ main > nav {
     padding-right: 20px;
 }
 
-main > section { 
+main section { 
 	background : #000000;
     margin: 0px 20px;
 	order: 2; 
@@ -156,11 +156,6 @@ nav > ul > li:hover{
     background-color: #C2C2C2;
     color: #000000;
     font-weight: bolder;
-}
-
-
-nav > ul li a:hover{
-    
 }
 
 footer{
