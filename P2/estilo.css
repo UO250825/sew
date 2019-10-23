@@ -1,6 +1,6 @@
 body{
     font: 400 15px Tahoma, sans-serif;
-    line-height: 1.8;
+    line-height: 1.2;
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -43,6 +43,7 @@ h1{
 p, li, tr{
     font-family: Times, serif;
     text-align: justify;
+    justify-content: center;
     font-size: 1.2em;
 }
 
@@ -88,14 +89,12 @@ p::first-letter{
 
 /* TABLAS */
 
-a:visited{
-    color: #FF1900;
-    text-decoration: underline dotted;
+a:link{
+    color: #FFFFFF;
 }
 
-a{
-    color: #ffffff;
-    text-decoration: underline dotted;
+a:visited{
+    color: #FF1900;
 }
 
 body{
@@ -124,7 +123,6 @@ main > nav {
     border-right-width: 3px;
     border-right-style: solid;
     padding-right: 20px;
-    
 }
 
 main > section { 
@@ -134,22 +132,35 @@ main > section {
 }
 
 nav > ul{
+    margin-top: 50px;
     border-color: white;
-    border-width: 3px;
-    border-style: solid;
+    
     text-transform: uppercase;
     list-style: none;
     text-align: center;
     width: 200px;
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 nav > ul li{
-    padding: 10px 10px 10px 0px;
-    margin-right: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    border-color: red;
+    border-width: 3px 0px;
+    border-style: solid;
 }
 
+nav > ul > li:hover{
+    background-color: #C2C2C2;
+    color: #000000;
+    font-weight: bolder;
+}
+
+
 nav > ul li a:hover{
-    font-size: 1.2em;
+    
 }
 
 footer{
