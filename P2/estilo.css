@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1,h3,h5{
-    font-stretch: expanded;
+    font-stretch: extra-condensed;
 }
 
 h2,h4,h6{
@@ -33,7 +33,6 @@ h1,h6{
 }
 
 h1{
-    letter-spacing: 1.2em;
     font-size: 180px;
     padding-top: 100px;
     text-decoration: underline;
