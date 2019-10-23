@@ -32,9 +32,9 @@ h1,h6{
 }
 
 h1{
-    border-radius: 2em;
     letter-spacing: 2em;
     font-size: 2em;
+    padding: 100px 0px;
     background-color: #FFFFFF;
     color: #000000;
 }
