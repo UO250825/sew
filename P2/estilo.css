@@ -34,7 +34,7 @@ h1,h6{
 
 h1{
     letter-spacing: 2em;
-    font-size: 2em;
+    font-size: 1.5em;
     padding-top: 100px;
     background-color: #FFFFFF;
     color: #000000;
@@ -119,6 +119,7 @@ main {
 	order: 2;
 	display: flex;
     padding: 25px 0px;
+    margin-top: 400px;
 }
 
 main > nav { 
