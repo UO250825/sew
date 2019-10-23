@@ -12,7 +12,8 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     
     text-align: center;
-    margin: 10px;
+    margin: 0px;
+    padding: 0px;
     
     font-family: sans-serif;
     font: Vesta, sans-serif;
@@ -32,12 +33,13 @@ h1,h6{
 }
 
 h1{
-    letter-spacing: 2em;
-    font-size: 1.5em;
+    letter-spacing: 1.2em;
+    font-size: 180px;
     padding-top: 100px;
+    text-decoration: underline;
     background-color: #FFFFFF;
     color: #000000;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Oswald', sans-serif;
     padding-bottom: 10px;
 }
 
