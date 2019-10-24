@@ -43,6 +43,9 @@ main .contenido {
 
 nav > ul{
     box-sizing: content-box;
+    border-color: crimson;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
     text-transform: uppercase;
     list-style: none;   
     list-style-position: inside;
@@ -77,7 +80,7 @@ footer{
 /* ENCABEZADOS */
 h2,h3,h4,h5,h6{
     background-color:#FFFFFF;
-    color: #FFFFFF;
+    color: #000000;
     text-transform: uppercase;
     text-align: center;
     font-family: sans-serif;
