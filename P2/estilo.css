@@ -29,7 +29,7 @@ main > nav {
 	background : #000000;
 	order: 1;
     align-content: flex-start;
-    min-width: 200px;
+    width: 100%;
 }
 
 main .contenido { 
