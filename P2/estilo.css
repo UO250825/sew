@@ -12,8 +12,6 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     
     text-align: center;
-    margin: 0px;
-    padding: 0px;
     
     font-family: sans-serif;
     font: Vesta, sans-serif;
@@ -35,8 +33,8 @@ h1,h6{
 h1{
     font-size: 70px;
     padding: 100px 0px;
+    align-self: flex-end
     text-decoration: underline;
-    background-color: #FFFFFF;
     color: #000000;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0px;
@@ -111,7 +109,8 @@ body{
 header{
     order: 1;
     width: 100vw;
-    border-bottom-color: #FFFFFF;
+    display: flex;
+    background-color: #FFFFFF;
 }
 
 /*Mantengo vendor por temas didacticos*/
