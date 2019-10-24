@@ -25,9 +25,13 @@ main {
 	display: flex;
 }
 
+header > h1{
+    order:1;
+}
+
 header > nav { 
 	background : #000000;
-	order: 1;
+	order: 2;
     align-content: flex-end;
     width: 100%;
 }
