@@ -36,6 +36,7 @@ main .contenido {
 	background: #000000;
     margin: 0px 20px;
 	order: 2; 
+    width: 100%;
 }
 
 nav > ul{
@@ -153,6 +154,11 @@ p::first-letter{
     font-size: 1.5em;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 video{
     width: 100%;
 }
