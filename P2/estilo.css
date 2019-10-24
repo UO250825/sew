@@ -50,9 +50,7 @@ nav > ul{
 nav > ul li{
     justify-content: center;
     align-content: center;
-    border-color: red;
-    border-right-width: 3px;
-    border-style: solid;
+    border-right: red 3px solid;
     height: 75px;
 }
 
