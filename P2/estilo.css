@@ -108,7 +108,9 @@ h1{
     font-size: 80px;
 }
 
-
+section > video{
+    align-self: center;
+}
 
 /* PARRAFOS */
 p, li, tr{
