@@ -49,6 +49,8 @@ nav > ul{
 }
 
 nav > ul li{
+    box-sizing: content-box;
+    width: 100%;
     justify-content: center;
     text-align: center;
     height: 75px;
