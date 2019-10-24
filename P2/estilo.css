@@ -156,9 +156,13 @@ p::first-letter{
 
 section{
     display: flex;
-    flex-direction: column nowrap;
+    flex-direction: row wrap;
     justify-content: center;
     align-items: center;
+}
+
+section > h2{
+    order: 1;
 }
 
 video{
