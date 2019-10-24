@@ -53,6 +53,7 @@ nav > ul{
     margin-left:0;
     width: 100%;
     display: grid;
+    flex-direction: row nowrap;
 }
 
 nav > ul li{
