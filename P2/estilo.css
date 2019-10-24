@@ -60,6 +60,7 @@ nav > ul li{
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
     height: 75px;
+    line-height: 75px;
 }
 
 nav > ul > li:hover{
