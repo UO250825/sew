@@ -3,7 +3,68 @@ body{
     line-height: 1.2em;
     background-color: #000000;
     color: #FFFFFF;
+    display: flex;
+	flex-flow: column nowrap;
+    font-weight: normal;
 }
+
+header{
+    order: 1;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #FFFFFF;
+    position: fixed
+}
+
+main { 
+	order: 2;
+	display: flex;
+}
+
+main > nav { 
+	background : #000000;
+	order: 1;
+    border-color: red;
+    border-right-width: 3px;
+    border-right-style: solid;
+    padding-right: 20px;
+    width: 200px;
+}
+
+main section { 
+	background : #000000;
+    margin: 0px 20px;
+	order: 2; 
+}
+
+nav > ul{
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: grid;
+}
+
+nav > ul li{
+    justify-content: center;
+    align-content: center;
+    border-color: red;
+    border-width: 3px 0px;
+    border-style: solid;
+}
+
+nav > ul > li:hover{
+    background-color: #C2C2C2;
+    color: #000000;
+    font-weight: bolder;
+}
+
+footer{
+    order: 3;
+    background:#E6E6E6;
+}
+
 
 /* ENCABEZADOS */
 h2,h3,h4,h5,h6{
@@ -37,7 +98,7 @@ h1{
     text-transform: full-width;
     color: #000000;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 
@@ -100,69 +161,10 @@ a:visited{
     color: #FF1900;
 }
 
-body{
-    display: flex;
-	flex-flow: column nowrap;
-    font-weight: normal;
-}
 
-header{
-    order: 1;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    background-color: #FFFFFF;
-}
 
 /*Mantengo vendor por temas didacticos*/
 
 
-main { 
-	order: 2;
-	display: flex;
-    padding: 25px 0px;
-}
 
-main > nav { 
-	background : #000000;
-	order: 1;
-    border-color: red;
-    border-right-width: 3px;
-    border-right-style: solid;
-    padding-right: 20px;
-    width: 200px;
-}
-
-main section { 
-	background : #000000;
-    margin: 0px 20px;
-	order: 2; 
-}
-
-nav > ul{
-    text-transform: uppercase;
-    list-style: none;
-    text-align: center;
-    width: 100%;
-    display: grid;
-}
-
-nav > ul li{
-    justify-content: center;
-    padding-top: 30px;
-    border-color: red;
-    border-width: 3px 0px;
-    border-style: solid;
-}
-
-nav > ul > li:hover{
-    background-color: #C2C2C2;
-    color: #000000;
-    font-weight: bolder;
-}
-
-footer{
-    order: 3;
-    background:#E6E6E6;
-}
 
