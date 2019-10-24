@@ -62,7 +62,7 @@ nav > ul{
 }
 
 nav > ul li{
-    display:flex;
+    display:inline-block;
     width: 100%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
