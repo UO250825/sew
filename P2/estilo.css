@@ -43,8 +43,8 @@ nav > ul{
     border-color: crimson;
     border-bottom-width: 5px;
     border-bottom-style: double;
-    border-right: 5px;
-    border-right: double;
+    border-right-width: 5px;
+    border-right-style: double;
     text-transform: uppercase;
     list-style: none;   
     list-style-position: inside;
@@ -101,7 +101,6 @@ h1,h6{
 
 h1{
     box-sizing: content-box;
-    text-decoration: underline dashed #000000;
     text-transform: uppercase;
     text-align: center;
     color: #000000;
