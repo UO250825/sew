@@ -25,10 +25,10 @@ main {
 	display: flex;
 }
 
-main > nav { 
+header > nav { 
 	background : #000000;
 	order: 1;
-    align-content: flex-start;
+    align-content: flex-end;
     width: 100%;
 }
 
