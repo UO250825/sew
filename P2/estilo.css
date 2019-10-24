@@ -52,15 +52,12 @@ nav > ul{
 }
 
 nav > ul li{
-    box-sizing: content-box;
+    display:flex;
     width: 100%;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    align-items: center;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
     height: 75px;
-    line-height: 75px;
 }
 
 nav > ul > li:hover{
