@@ -16,7 +16,6 @@ header{
     height: 100px;
     display: flex;
     background-color: #FFFFFF;
-    position: fixed
 }
 
 main { 
@@ -27,10 +26,10 @@ main {
 main > nav { 
 	background : #000000;
 	order: 1;
+    align-content: flex-start;
     border-color: red;
     border-right-width: 3px;
     border-right-style: solid;
-    padding-right: 20px;
     width: 200px;
 }
 
@@ -52,7 +51,7 @@ nav > ul li{
     justify-content: center;
     align-content: center;
     border-color: red;
-    border-width: 3px 0px;
+    border-right-width: 3px;
     border-style: solid;
     height: 75px;
 }
