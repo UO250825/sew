@@ -41,16 +41,14 @@ main section {
 
 nav > ul{
     text-transform: uppercase;
-    list-style: none;
-    text-align: center;
-    justify-content: left;
+    list-style: none;    
     width: 100%;
     display: grid;
 }
 
 nav > ul li{
-    
-    border-right: red 3px solid;
+    justify-content: center;
+    text-align: center;
     height: 75px;
 }
 
