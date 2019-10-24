@@ -6,13 +6,11 @@ body{
 }
 
 /* ENCABEZADOS */
-h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
     background-color:#6B0B00;
     color: #FFFFFF;
     text-transform: uppercase;
-    
     text-align: center;
-    
     font-family: sans-serif;
     font: Vesta, sans-serif;
 }
@@ -32,8 +30,9 @@ h1,h6{
 
 h1{
     font-size: 100px;
-    align-self: flex-end
+    align-self: flex-end;
     text-decoration: underline;
+    text-transform: uppercase;
     color: #000000;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0px;
