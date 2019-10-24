@@ -31,8 +31,7 @@ h1,h6{
 }
 
 h1{
-    font-size: 70px;
-    padding: 100px 0px;
+    font-size: 100px;
     align-self: flex-end
     text-decoration: underline;
     color: #000000;
