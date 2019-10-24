@@ -29,9 +29,6 @@ main > nav {
 	background : #000000;
 	order: 1;
     align-content: flex-start;
-    border-color: red;
-    border-right-width: 3px;
-    border-right-style: solid;
     min-width: 200px;
 }
 
@@ -46,6 +43,8 @@ nav > ul{
     border-color: crimson;
     border-bottom-width: 5px;
     border-bottom-style: double;
+    border-right: 5px;
+    border-right: double;
     text-transform: uppercase;
     list-style: none;   
     list-style-position: inside;
