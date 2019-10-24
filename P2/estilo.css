@@ -89,7 +89,8 @@ h1,h6{
 }
 
 h1{
-    font-size: 80px;
+    box-sizing: content-box;
+    line-height: 100%;
     align-self: flex-end;
     text-decoration: underline;
     text-transform: uppercase;
