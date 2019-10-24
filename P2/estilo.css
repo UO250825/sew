@@ -31,7 +31,7 @@ main > nav {
     border-color: red;
     border-right-width: 3px;
     border-right-style: solid;
-    width: 500px;
+    min-width: 200px;
 }
 
 main section { 
@@ -94,8 +94,8 @@ h1,h6{
 
 h1{
     box-sizing: content-box;
-    text-decoration: underline dashed #000000;
-    text-transform: capitalize;
+    text-decoration: underline dashed #FFFFFF;
+    text-transform: uppercase;
     text-align: center;
     color: #000000;
     font-family: 'Oswald', sans-serif;
