@@ -35,8 +35,8 @@ main > nav {
     min-width: 200px;
 }
 
-main section { 
-	background : #000000;
+main .contenido { 
+	background: #000000;
     margin: 0px 20px;
 	order: 2; 
 }
@@ -76,7 +76,7 @@ footer{
 
 /* ENCABEZADOS */
 h2,h3,h4,h5,h6{
-    background-color:#6B0B00;
+    background-color:#FFFFFF;
     color: #FFFFFF;
     text-transform: uppercase;
     text-align: center;
@@ -90,11 +90,11 @@ h1,h3,h5{
 
 h2,h4,h6{
     font-style: italic;
-    border-radius: 2em;
+    border-radius: 1.1em;
 }
 
 h1,h6{
-    font-weight: bold
+    font-weight: bold;
 }
 
 h1{
