@@ -43,7 +43,10 @@ main section {
 nav > ul{
     box-sizing: content-box;
     text-transform: uppercase;
-    list-style: none;    
+    list-style: none;   
+    list-style-position: inside;
+    padding-left:0;
+    margin-left:0;
     width: 100%;
     display: grid;
 }
