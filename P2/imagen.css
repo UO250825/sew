@@ -1,6 +1,3 @@
-body{
-    background-image: url(multimedia/img/fondo.jpg);
-    background-color: gray;
-    background-size: cover;
-    background-repeat: no-repeat;
+.contenido > img{
+    width: 100%;
 }
