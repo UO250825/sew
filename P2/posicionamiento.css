@@ -22,6 +22,7 @@ main{
 footer{
     order:4;
     width: 100%;
+    align-self: flex-end;
 }
 
 /* @media(max-width:480px) */
