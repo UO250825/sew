@@ -58,13 +58,10 @@ nav > ul{
 nav > ul li{
     width: calc(20%-calc(32px/5));
     height: 64px;
+    width: 128px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
     
-}
-
-nav > ul li:nth-child(5n){
-    margin-right: 0px;
 }
 
 nav > ul > li:hover{
