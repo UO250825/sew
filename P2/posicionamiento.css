@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+header{
+    order:1;
+    width:100%;
+}
+
+nav{
+    order:2;
+    width: 15%
+}
+
+.contenido{
+    order: 3;
+    width: 85%;
+}
+
+footer{
+    order:4;
+    width: 100%;
+}
+
+/* @media(max-width:480px) */
