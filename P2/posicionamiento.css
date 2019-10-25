@@ -11,12 +11,12 @@ header{
 
 nav{
     order:2;
-    width: 15%
+    width: 100%
 }
 
-.contenido{
+main{
     order: 3;
-    width: 85%;
+    width: 100%;
 }
 
 footer{
