@@ -36,17 +36,17 @@ main .contenido {
 }
 
 nav > ul{
-    box-sizing: content-box;
-    border-color: crimson;
-    border-bottom-width: 5px;
+    border-color: red #FFFFFF;
+    border-width: 5px;
+    border-top-width: 5px;
+    border-style: solid;
     border-bottom-style: double;
-    border-right-width: 5px;
-    border-right-style: double;
+    
     text-transform: uppercase;
     list-style: none;   
     list-style-position: inside;
     padding-bottom:10px;
-    margin-left: 0px;
+    padding-left: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
