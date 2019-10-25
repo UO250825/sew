@@ -52,17 +52,23 @@ nav > ul{
     padding-left:0;
     margin-left:0;
     width: 100%;
-    display: grid;
-    flex-direction: row nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 nav > ul li{
-    display:inline-block;
-    width: 100%;
-    align-items: center;
+    width: calc(20%-calc(32px/5));
+    height: 64px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
-    height: 11vh;
+    
+}
+
+nav > ul li:nth-child(5n){
+    margin-right: 0px;
 }
 
 nav > ul > li:hover{
