@@ -34,7 +34,6 @@ main .contenido {
     margin: 0px 20px;
 	order: 2; 
     width: 100%;
-    min-height: 100vh;
 }
 
 nav > ul{
