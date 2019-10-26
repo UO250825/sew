@@ -29,8 +29,4 @@ footer{
     align-self: flex-end;
 }
 
-section > video{
-    align-self: center;
-}
-
 /* @media(max-width:480px) */
