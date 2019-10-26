@@ -27,11 +27,6 @@ main{
     display: flex;
 }
 
-/* a=0 b=1 c=1 -> specificity = 011 */
-.contenido section{
-    display: flex;
-}
-
 /* a=0 b=0 c=1 -> specificity = 001 */
 footer{
     order:4;
