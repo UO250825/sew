@@ -7,6 +7,6 @@
 .contenido section > img{
     border-width: 8px;
     border-color: #FFFFFF;
-    border-style: double
+    border-style: double;
     margin: 16px;
 }
