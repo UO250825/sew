@@ -32,4 +32,6 @@ footer{
     order:4;
     width: 100%;
     align-self: flex-end;
+    align-items: center;
+    display:flex;
 }

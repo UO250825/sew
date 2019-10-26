@@ -50,7 +50,7 @@ nav > ul li{
     width: 128px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 /* a=0 b=1 c=2 -> specificity = 012 */
@@ -94,6 +94,7 @@ h1,h6{
 h1{
     text-transform: uppercase;
     text-align: center;
+    margin: 0px;
     color: #000000;
     font-family: 'Oswald', sans-serif;
     font-size: 80px;
