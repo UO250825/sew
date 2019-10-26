@@ -1,3 +1,4 @@
+/* a=0 b=1 c=1 -> specificity = 011 */
 .contenido > img{
     width: 100%;
     align-self: center;

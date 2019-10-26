@@ -1,3 +1,4 @@
+/* a=0 b=0 c=1 -> specificity = 001 */
 body{
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.2em;
@@ -8,20 +9,24 @@ body{
     min-width: 500px;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 header{
     background-color: #FFFFFF;
 }
 
+/* a=0 b=0 c=2 -> specificity = 002 */
 header > nav { 
 	background : #000000;
 }
 
+/* a=0 b=1 c=1 -> specificity = 011 */
 main .contenido { 
 	background: #000000;
     margin: 0px 20px;
     width: 100%;
 }
 
+/* a=0 b=0 c=2 -> specificity = 002 */
 nav > ul{
     border-color: red #FFFFFF;
     border-width: 5px;
@@ -40,6 +45,7 @@ nav > ul{
     align-items: center;
 }
 
+/* a=0 b=0 c=3 -> specificity = 003 */
 nav > ul li{
     width: 128px;
     font-family: 'Oswald', sans-serif;
@@ -47,17 +53,19 @@ nav > ul li{
     padding: 20px;
 }
 
+/* a=0 b=1 c=2 -> specificity = 012 */
 nav a:hover{
     background-color: #C2C2C2;
     color: #000000;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 footer{
     background:#FFFFFF;
 }
 
 
-/* ENCABEZADOS */
+/* a=0 b=0 c=1 -> specificity = 001 */
 h2,h3,h4,h5,h6{
     background-color:#FFFFFF;
     color: #000000;
@@ -66,19 +74,23 @@ h2,h3,h4,h5,h6{
     font-family: Vesta, sans-serif;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 h1,h3,h5{
     font-stretch: extra-condensed;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 h2,h4,h6{
     font-style: italic;
     border-radius: 1.1em;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 h1,h6{
     font-weight: bold;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 h1{
     text-transform: uppercase;
     text-align: center;
@@ -87,7 +99,7 @@ h1{
     font-size: 80px;
 }
 
-/* PARRAFOS */
+/* a=0 b=0 c=1 -> specificity = 001 */
 p, li, tr{
     font-family: Times, serif;
     text-align: justify;
@@ -95,22 +107,26 @@ p, li, tr{
     font-size: 1.2em;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 table{
     background-color: #6B0B00;
     color: #FFFFFF;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 tr{
     text-align: center;
     font-size: 1.5em;
     
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 th,td{
     border: 3px solid;
     border-color: #C2C2C2;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 th{
     background-color: #FF1900;
     color: #000000;
@@ -119,22 +135,27 @@ th{
     font-weight: bold;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 li{
     text-align: center;
 }
 
+/* a=0 b=0 c=1 -> specificity = 001 */
 p{
     text-indent: 30px;
 }
 
+/* a=0 b=0 c=2 -> specificity = 002 */
 p::first-letter{
     font-size: 1.5em;
 }
 
+/* a=0 b=1 c=1 -> specificity = 011 */
 a:link{
     color: #FFFFFF;
 }
 
+/* a=0 b=1 c=1 -> specificity = 011 */
 a:visited{
     color: #FF1900;
 }
