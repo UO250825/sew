@@ -9,29 +9,16 @@ body{
 }
 
 header{
-    order: 1;
-    align-self: flex-start;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: #FFFFFF;
-}
-
-main { 
-	order: 2;
-	display: flex;
 }
 
 header > nav { 
 	background : #000000;
-    align-content: flex-end;
-    width: 100%;
 }
 
 main .contenido { 
 	background: #000000;
     margin: 0px 20px;
-	order: 2; 
     width: 100%;
 }
 
@@ -67,9 +54,7 @@ nav > ul > li:hover{
 }
 
 footer{
-    order: 3;
-    background:#E6E6E6;
-    width: 100%;
+    background:#FFFFFF;
 }
 
 
@@ -96,16 +81,11 @@ h1,h6{
 }
 
 h1{
-    box-sizing: content-box;
     text-transform: uppercase;
     text-align: center;
     color: #000000;
     font-family: 'Oswald', sans-serif;
-    font-size: 80px;
-}
-
-section > video{
-    align-self: center;
+    font-size: 90px;
 }
 
 /* PARRAFOS */
