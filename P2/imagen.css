@@ -3,3 +3,13 @@
     width: 100%;
     align-self: center;
 }
+
+/* a=0 b=1 c=1 -> specificity = 011 */
+.contenido section > img{
+    width: 100%;
+    align-self: center;
+    border-width: 8px;
+    border-color: #FFFFFF;
+    margin: 16px;
+    box-shadow: 10px 5px 5px #FFFFFF;
+}
