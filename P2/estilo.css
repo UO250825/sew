@@ -85,7 +85,7 @@ h1{
     text-align: center;
     color: #000000;
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 80px;
 }
 
 /* PARRAFOS */
@@ -132,10 +132,6 @@ p::first-letter{
     font-size: 1.5em;
 }
 
-/* LISTAS */
-
-/* TABLAS */
-
 a:link{
     color: #FFFFFF;
 }
@@ -143,10 +139,6 @@ a:link{
 a:visited{
     color: #FF1900;
 }
-
-
-
-/*Mantengo vendor por temas didacticos*/
 
 
 
