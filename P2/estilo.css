@@ -1,12 +1,12 @@
 /* a=0 b=0 c=1 -> specificity = 001 */
 body{
-    font: 400 15px Tahoma, sans-serif;
+    font: 400 16px Tahoma, sans-serif;
     line-height: 1.2em;
     background-color: #000000;
     color: #FFFFFF;
     font-weight: normal;
     min-height: 100vh;
-    min-width: 500px;
+    min-width: 512px;
 }
 
 /* a=0 b=0 c=1 -> specificity = 001 */
@@ -22,15 +22,15 @@ header > nav {
 /* a=0 b=1 c=1 -> specificity = 011 */
 main .contenido { 
 	background: #000000;
-    margin: 0px 20px;
+    margin: 0px 32px;
     width: 100%;
 }
 
 /* a=0 b=0 c=2 -> specificity = 002 */
 nav > ul{
     border-color: red #FFFFFF;
-    border-width: 5px;
-    border-top-width: 5px;
+    border-width: 8px;
+    border-top-width: 4px;
     border-style: solid;
     border-bottom-style: double;
     
@@ -50,7 +50,7 @@ nav > ul li{
     width: 128px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
-    padding: 20px;
+    padding: 216px;
 }
 
 /* a=0 b=1 c=2 -> specificity = 012 */
@@ -64,6 +64,7 @@ footer{
     background:#FFFFFF;
     color: #FFFFFF;
     text-align: center;
+    padding: 16px;
 }
 
 
