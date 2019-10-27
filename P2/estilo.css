@@ -22,7 +22,7 @@ header > nav {
 /* a=0 b=1 c=1 -> specificity = 011 */
 main .contenido { 
 	background: #000000;
-    margin: 0px 32px;
+    margin: 16px 0px;
     width: 100%;
 }
 
