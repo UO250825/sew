@@ -33,8 +33,3 @@ footer{
     width: 100%;
     align-self: flex-end;
 }
-
-/* a=0 b=0 c=2 -> specificity = 002 */
-footer > img{
-    margin: 20px;
-}
