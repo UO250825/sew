@@ -61,9 +61,9 @@ nav a:hover{
 
 /* a=0 b=0 c=1 -> specificity = 001 */
 footer{
-    border: 8px 0px;
+    border-top: 8px;
     border-color: red;
-    border-style: double;
+    border-top-style: double;
     background:#FFFFFF;
     color: #000000;
     text-align: center;
