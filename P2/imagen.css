@@ -2,11 +2,3 @@
 .contenido img{
     width: 100%;
 }
-
-/* a=0 b=1 c=1 -> specificity = 011 */
-.contenido section > img{
-    border-width: 8px;
-    border-color: #FFFFFF;
-    border-style: double;
-    margin: 16px;
-}
